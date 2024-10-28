@@ -13,3 +13,4 @@ CREATE TABLE IF NOT EXISTS `position` (
 );
 
 ALTER TABLE `position` ADD FOREIGN KEY (targetHash) REFERENCES targets(hash);
+

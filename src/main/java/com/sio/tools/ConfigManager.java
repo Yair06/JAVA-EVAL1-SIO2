@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Properties;
 
+
 public class ConfigManager {
     private static final String CONFIG_FILE = "config.properties";
     private static final Properties properties = new Properties();
