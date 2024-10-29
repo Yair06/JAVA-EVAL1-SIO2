@@ -28,11 +28,10 @@ public class TargetService {
         ArrayList<Target> targets = tRepository.findAll();
 
         for (Target target : targets) {
-            ArrayList<Position> positions = pRepository.findByTargetHash(target.getHash());
-            target.setPositions(positions);
+            int position = 0;
         }
 
-        return targets;
+        return tRepository.findAll();
     }
 
     /**
